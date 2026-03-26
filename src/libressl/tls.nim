@@ -8,6 +8,8 @@
 ## link LibreSSL's libssl/libcrypto directly at build time and do not
 ## go through this module.
 
+import segfaults
+
 {.experimental: "strictFuncs".}
 
 const TlsHdr = "tls.h"
