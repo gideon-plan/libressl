@@ -2,3 +2,4 @@
 .nimcache/
 tests/ttls
 tests/ttls_integration
+*.out
