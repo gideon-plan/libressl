@@ -1,5 +1,6 @@
 switch("path", "src")
 switch("threads", "on")
+switch("outdir", ".out")
 
 # Vendored LibreSSL (4.2.1)
 const libresslDir = thisDir() & "/vendor/libressl"

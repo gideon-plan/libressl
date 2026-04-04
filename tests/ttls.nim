@@ -1,3 +1,4 @@
+{.experimental: "strictFuncs".}
 ## Tests for libtls FFI binding.
 ## Tests config/context lifecycle and client creation without requiring a server.
 

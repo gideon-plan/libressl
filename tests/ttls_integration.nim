@@ -1,3 +1,4 @@
+{.experimental: "strictFuncs".}
 ## Integration tests for libtls: TLS client/server over socketpair.
 ##
 ## Uses a thread for the server side to avoid blocking deadlocks.
