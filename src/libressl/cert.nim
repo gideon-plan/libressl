@@ -36,11 +36,11 @@ proc peer_cert_subject*(ctx: TlsCtx): string =
   if s != nil: $s else: ""
 
 proc peer_cert_notbefore*(ctx: TlsCtx): int64 =
-  ## Get the peer certificate not-before time (Unix timestamp).
+  ## Get the peer certificate not-before time (Unix created).
   tls_peer_cert_notbefore(ctx)
 
 proc peer_cert_notafter*(ctx: TlsCtx): int64 =
-  ## Get the peer certificate not-after time (Unix timestamp).
+  ## Get the peer certificate not-after time (Unix created).
   tls_peer_cert_notafter(ctx)
 
 proc peer_cert_contains_name*(ctx: TlsCtx, name: string): bool =
